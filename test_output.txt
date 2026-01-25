@@ -1,0 +1,97 @@
+Note: Unnecessary use of -X or --request, POST is already inferred.
+* Host localhost:8080 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8080...
+* Connected to localhost (::1) port 8080
+* using HTTP/1.x
+> POST /posts HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/8.15.0
+> Accept: */*
+> Content-Length: 21
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [21 bytes data]
+* upload completely sent off: 21 bytes
+< HTTP/1.1 201 Created
+< Content-Type: application/json
+< Date: Sun, 25 Jan 2026 10:27:29 GMT
+< Content-Length: 29
+< 
+{ [29 bytes data]
+100    50  100    29  100    21   4525   3277 --:--:-- --:--:-- --:--:--  8333
+* Connection #0 to host localhost left intact
+{"id":4,"title":"Test Post"}
+* Host localhost:8080 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8080...
+* Connected to localhost (::1) port 8080
+* using HTTP/1.x
+> GET /posts HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/8.15.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Content-Type: application/json
+< Date: Sun, 25 Jan 2026 10:27:32 GMT
+< Content-Length: 126
+< 
+{ [126 bytes data]
+100   126  100   126    0     0  21323      0 --:--:-- --:--:-- --:--:-- 25200
+* Connection #0 to host localhost left intact
+[{"id":1,"title":"First Post"},{"id":2,"title":"KVolt is Awesome"},{"id":3,"title":"Test Post"},{"id":4,"title":"Test Post"}]
+* Host localhost:8080 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8080...
+* Connected to localhost (::1) port 8080
+* using HTTP/1.x
+> PUT /users/1 HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/8.15.0
+> Accept: */*
+> Content-Length: 54
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [54 bytes data]
+* upload completely sent off: 54 bytes
+< HTTP/1.1 404 Not Found
+< Content-Type: application/json
+< Date: Sun, 25 Jan 2026 10:27:51 GMT
+< Content-Length: 29
+< 
+{ [29 bytes data]
+100    83  100    29  100    54   4267   7945 --:--:-- --:--:-- --:--:-- 13833
+* Connection #0 to host localhost left intact
+{"message":"User not found"}
+* Host localhost:8080 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8080...
+* Connected to localhost (::1) port 8080
+* using HTTP/1.x
+> DELETE /users/1 HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/8.15.0
+> Accept: */*
+> 
+< HTTP/1.1 404 Not Found
+< Content-Type: application/json
+< Date: Sun, 25 Jan 2026 10:27:56 GMT
+< Content-Length: 29
+< 
+{ [29 bytes data]
+100    29  100    29    0     0   4715      0 --:--:-- --:--:-- --:--:--  5800
+* Connection #0 to host localhost left intact
+{"message":"User not found"}

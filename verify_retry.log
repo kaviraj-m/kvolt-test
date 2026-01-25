@@ -1,0 +1,10 @@
+Starting API Verification...
+Checking GET /users... OK (200)
+Checking POST /users... OK (201)
+Checking GET /users/1... OK (200)
+Checking PUT /users/1... OK (200)
+Checking POST /posts... OK (201)
+Checking GET /posts... OK (200)
+Checking DELETE /users/1... OK (204)
+--------------------------------
+✅ All tests passed!

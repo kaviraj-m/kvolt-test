@@ -1,0 +1,6 @@
+# test/cmd/verification [test/cmd/verification.test]
+cmd/verification/main_test.go:210:19: cannot use app (variable of type *kvolt.Engine) as interface{Routes() []swagger.RouteInfo} value in struct literal: *kvolt.Engine does not implement interface{Routes() []swagger.RouteInfo} (wrong type for method Routes)
+		have Routes() []kvolt.RouteInfo
+		want Routes() []swagger.RouteInfo
+FAIL	test/cmd/verification [build failed]
+FAIL

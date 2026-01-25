@@ -1,0 +1,5 @@
+# test/cmd/verification
+../../kvolt/context/context.go:6:2: missing go.sum entry for module providing package github.com/bytedance/sonic (imported by github.com/go-kvolt/kvolt/context); to add:
+	go get github.com/go-kvolt/kvolt/context@v0.1.2
+FAIL	test/cmd/verification [setup failed]
+FAIL

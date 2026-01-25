@@ -1,0 +1,6 @@
+=== RUN   TestStaticFiles
+[KVolt] 2026/01/25 - 20:46:52 | 200 |     1.14879ms |                 | GET     /assets/css/style.css
+[KVolt] 2026/01/25 - 20:46:52 | 200 |       42.14µs |                 | GET     /assets/
+--- PASS: TestStaticFiles (0.00s)
+PASS
+ok  	test/cmd/verification	0.004s

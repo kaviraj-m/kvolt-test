@@ -1,0 +1,145 @@
+=== RUN   TestStaticRoutes
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00208 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+--- PASS: TestStaticRoutes (0.00s)
+=== RUN   TestParamRoutes
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m1.032051 [36mmethod=[0mGET [36mpath=[0m/user/123 [36mstatus=[0m200
+--- PASS: TestParamRoutes (0.00s)
+=== RUN   TestWildcardRoutes
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00081 [36mmethod=[0mGET [36mpath=[0m/files/css/style.css [36mstatus=[0m200
+--- PASS: TestWildcardRoutes (0.00s)
+=== RUN   TestGroupRoutes
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00071 [36mmethod=[0mGET [36mpath=[0m/v1/hello [36mstatus=[0m200
+--- PASS: TestGroupRoutes (0.00s)
+=== RUN   TestConcurrency
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.016579 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00209 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00184 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00817 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00254 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0018 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0018 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0019 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00168 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00185 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.001689 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00606 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00359 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00318 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.02143 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00056 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00403 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00091 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00848 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00357 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00347 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00366 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00268 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.278438 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00528 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.02124 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00466 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0032 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00513 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00179 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00529 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00716 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00517 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.021429 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.004591 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00425 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00296 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00415 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00262 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00355 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00284 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00454 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00232 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0027 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00472 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0039 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00346 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00295 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00192 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.010249 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00322 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00095 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00331 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00368 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00295 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00278 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00325 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00293 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00315 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0041 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00379 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00277 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00213 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00706 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00266 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00454 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.002849 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.003659 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00346 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00327 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.008549 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00236 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00316 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00287 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0027 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00522 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00277 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00265 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00265 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.0032 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00185 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.446626 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00286 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00292 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00259 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00196 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00273 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00281 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00403 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00299 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00265 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00291 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00252 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00263 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00266 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.01189 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00171 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00219 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00177 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.531446 [36mmethod=[0mGET [36mpath=[0m/ping [36mstatus=[0m200
+    main_test.go:152: Processed 100 requests in 1.20932ms
+--- PASS: TestConcurrency (0.00s)
+=== RUN   Test404
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00057 [36mmethod=[0mGET [36mpath=[0m/notfound [36mstatus=[0m200
+--- PASS: Test404 (0.00s)
+=== RUN   TestPostEcho
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m1.13334 [36mmethod=[0mPOST [36mpath=[0m/echo [36mstatus=[0m200
+--- PASS: TestPostEcho (0.00s)
+=== RUN   TestSwaggerUI
+📖 API Documentation enabled: http://localhost/swagger/index.html
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.01339 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+--- PASS: TestSwaggerUI (0.00s)
+=== RUN   TestAutoDocs
+📖 API Documentation enabled: http://localhost/swagger/index.html
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.046339 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m200
+--- PASS: TestAutoDocs (0.00s)
+=== RUN   TestDisabledDocs
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.00047 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+--- PASS: TestDisabledDocs (0.00s)
+=== RUN   TestWebSocket
+--- PASS: TestWebSocket (0.00s)
+=== RUN   TestHTTP2
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m127.0.0.1:49256 [36mlatency=[0m0.149979 [36mmethod=[0mGET [36mpath=[0m/ws [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m127.0.0.1:49568 [36mlatency=[0m0.00156 [36mmethod=[0mGET [36mpath=[0m/h2 [36mstatus=[0m200
+    main_test.go:361: Protocol used: HTTP/1.1
+--- PASS: TestHTTP2 (0.00s)
+=== RUN   TestStaticFiles
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m1.740305 [36mmethod=[0mGET [36mpath=[0m/assets/css/style.css [36mstatus=[0m200
+[90m21:50:48[0m [32mINF[0m [1mRequest[0m [36mip=[0m [36mlatency=[0m0.03526 [36mmethod=[0mGET [36mpath=[0m/assets/ [36mstatus=[0m200
+--- PASS: TestStaticFiles (0.00s)
+PASS
+ok  	test/cmd/verification	0.015s

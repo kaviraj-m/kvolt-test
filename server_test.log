@@ -1,0 +1,9 @@
+MockRouter: Registered /
+MockRouter: Registered /users
+MockRouter: Registered /users/{id}
+MockRouter: Registered /users
+MockRouter: Registered /swagger/*any
+2026/01/25 00:11:21 Server starting on :8080
+⚡ KVolt is running on http://localhost:8080
+Press Ctrl+C to stop
+Listen: listen tcp :8080: bind: address already in use

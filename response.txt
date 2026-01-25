@@ -1,0 +1,23 @@
+* Host localhost:8080 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8080...
+* Connected to localhost (::1) port 8080
+* using HTTP/1.x
+> GET /users/1 HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/8.15.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 200 OK
+< Content-Type: application/json
+< Date: Sun, 25 Jan 2026 10:22:02 GMT
+< Content-Length: 54
+< 
+{ [54 bytes data]
+100    54  100    54    0     0   9352      0 --:--:-- --:--:-- --:--:-- 10800
+* Connection #0 to host localhost left intact
+{"id":1,"name":"John Doe","email":"john@example.com"}

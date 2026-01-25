@@ -1,0 +1,8 @@
+=== RUN   TestStaticFiles
+    main_test.go:409: Trailing slash /assets/ failed: expected 200, got 404
+[KVolt] 2026/01/25 - 20:45:44 | 200 |    1.074951ms |                 | GET     /assets/css/style.css
+[KVolt] 2026/01/25 - 20:45:44 | 200 |         570ns |                 | GET     /assets/
+--- FAIL: TestStaticFiles (0.00s)
+FAIL
+FAIL	test/cmd/verification	0.004s
+FAIL

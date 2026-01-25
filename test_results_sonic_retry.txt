@@ -1,0 +1,4 @@
+=== RUN   TestPostEcho
+--- PASS: TestPostEcho (0.00s)
+PASS
+ok  	test/cmd/verification	0.007s

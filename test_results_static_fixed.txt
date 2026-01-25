@@ -1,0 +1,31 @@
+=== RUN   TestStaticFiles
+--- FAIL: TestStaticFiles (0.00s)
+panic: catch-all conflicts with existing handle for the path segment root in path '/assets/*filepath' [recovered, repanicked]
+
+goroutine 9 [running]:
+testing.tRunner.func1.2({0x7b28a0, 0xc00003c4a0})
+	/usr/lib/golang/src/testing/testing.go:1872 +0x237
+testing.tRunner.func1()
+	/usr/lib/golang/src/testing/testing.go:1875 +0x35b
+panic({0x7b28a0?, 0xc00003c4a0?})
+	/usr/lib/golang/src/runtime/panic.go:783 +0x132
+github.com/go-kvolt/kvolt/router.(*Node).insertChild(0x18?, {0xc0000282f0?, 0xc0000282e8?}, {0xc0000282e8, 0x11}, {0x7ac160, 0xc000012300})
+	/run/media/kaviraj/New Volume/framework/kvolt/router/tree.go:209 +0x4ea
+github.com/go-kvolt/kvolt/router.(*Node).insert(0x2?, {0xc0000282e8, 0x11}, {0x7ac160, 0xc000012300})
+	/run/media/kaviraj/New Volume/framework/kvolt/router/tree.go:136 +0x66e
+github.com/go-kvolt/kvolt/router.(*Router).AddRoute(0xc00003c430, {0x83b8e0, 0x3}, {0xc0000282e8, 0x11}, {0x7ac160, 0xc000012300})
+	/run/media/kaviraj/New Volume/framework/kvolt/router/router.go:24 +0xd3
+github.com/go-kvolt/kvolt.(*RouterGroup).addRoute(0xc0000b7290, {0x83b8e0, 0x3}, {0xc000086de8?, 0x4bdfc6?}, 0xc000012270)
+	/run/media/kaviraj/New Volume/framework/kvolt/group.go:100 +0x186
+github.com/go-kvolt/kvolt.(*RouterGroup).GET(...)
+	/run/media/kaviraj/New Volume/framework/kvolt/group.go:45
+github.com/go-kvolt/kvolt.(*RouterGroup).Static(0xc0000b7290, {0x83c429, 0x7}, {0xc00002e4b0, 0x22})
+	/run/media/kaviraj/New Volume/framework/kvolt/group.go:89 +0x2ba
+test/cmd/verification.TestStaticFiles(0xc0000ba700)
+	/run/media/kaviraj/New Volume/framework/projects/test/cmd/verification/main_test.go:383 +0x28f
+testing.tRunner(0xc0000ba700, 0x861198)
+	/usr/lib/golang/src/testing/testing.go:1934 +0xea
+created by testing.(*T).Run in goroutine 1
+	/usr/lib/golang/src/testing/testing.go:1997 +0x465
+FAIL	test/cmd/verification	0.005s
+FAIL
