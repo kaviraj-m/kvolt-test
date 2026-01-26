@@ -40,6 +40,10 @@ func main() {
 	app.GET("/posts", handler.GetPosts)
 	app.POST("/posts", handler.CreatePost)
 
+	// Misc Routes
+	app.GET("/health", handler.GetHealth)
+	app.GET("/version", handler.GetVersion)
+
 	// Swagger Route
 	// Swagger Route
 	// doc, _ := swag.ReadDoc() // Read from "swagger" instance by default
