@@ -1,0 +1,6 @@
+🚀 Queue started with 5 workers
+📖 API Documentation enabled: http://localhost:8080/swagger/index.html
+⚡ KVolt is running on http://localhost:8080
+Press Ctrl+C to stop
+[KVolt] 2026/01/31 - 18:40:52 | 200 |   501.61349ms |     [::1]:59032 | GET     /cache/fast-test
+[KVolt] 2026/01/31 - 18:40:52 | 200 |       73.06µs |     [::1]:51582 | GET     /cache/fast-test
